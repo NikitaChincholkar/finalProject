@@ -16,6 +16,7 @@
 		11C5433028873974008FA30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C5432E28873974008FA30F /* LaunchScreen.storyboard */; };
 		A466647C28875EF0000187DA /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466647B28875EF0000187DA /* TodoTableViewController.swift */; };
 		A466648028876CBD000187DA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466647F28876CBD000187DA /* Todo.swift */; };
+		A4666482288773F0000187DA /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4666481288773F0000187DA /* AddTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		11C5433128873974008FA30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A466647B28875EF0000187DA /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
 		A466647F28876CBD000187DA /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		A4666481288773F0000187DA /* AddTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				11C5432428873971008FA30F /* ViewController.swift */,
 				A466647B28875EF0000187DA /* TodoTableViewController.swift */,
 				11C5432628873971008FA30F /* Main.storyboard */,
+				A4666481288773F0000187DA /* AddTodoViewController.swift */,
 				11C5432C28873974008FA30F /* Assets.xcassets */,
 				11C5432E28873974008FA30F /* LaunchScreen.storyboard */,
 				11C5433128873974008FA30F /* Info.plist */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C5432528873971008FA30F /* ViewController.swift in Sources */,
+				A4666482288773F0000187DA /* AddTodoViewController.swift in Sources */,
 				A466648028876CBD000187DA /* Todo.swift in Sources */,
 				A466647C28875EF0000187DA /* TodoTableViewController.swift in Sources */,
 				11C5432128873971008FA30F /* AppDelegate.swift in Sources */,

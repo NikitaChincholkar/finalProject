@@ -15,6 +15,7 @@
 		11C5432D28873974008FA30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C5432C28873974008FA30F /* Assets.xcassets */; };
 		11C5433028873974008FA30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C5432E28873974008FA30F /* LaunchScreen.storyboard */; };
 		A466647C28875EF0000187DA /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466647B28875EF0000187DA /* TodoTableViewController.swift */; };
+		A466648028876CBD000187DA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466647F28876CBD000187DA /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		11C5432F28873974008FA30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11C5433128873974008FA30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A466647B28875EF0000187DA /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		A466647F28876CBD000187DA /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				11C5432028873971008FA30F /* AppDelegate.swift */,
+				A466647F28876CBD000187DA /* Todo.swift */,
 				11C5432228873971008FA30F /* SceneDelegate.swift */,
 				11C5432428873971008FA30F /* ViewController.swift */,
 				A466647B28875EF0000187DA /* TodoTableViewController.swift */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C5432528873971008FA30F /* ViewController.swift in Sources */,
+				A466648028876CBD000187DA /* Todo.swift in Sources */,
 				A466647C28875EF0000187DA /* TodoTableViewController.swift in Sources */,
 				11C5432128873971008FA30F /* AppDelegate.swift in Sources */,
 				11C5432B28873971008FA30F /* finalProject.xcdatamodeld in Sources */,

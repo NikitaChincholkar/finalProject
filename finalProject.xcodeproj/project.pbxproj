@@ -14,6 +14,7 @@
 		11C5432B28873971008FA30F /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11C5432928873971008FA30F /* finalProject.xcdatamodeld */; };
 		11C5432D28873974008FA30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C5432C28873974008FA30F /* Assets.xcassets */; };
 		11C5433028873974008FA30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C5432E28873974008FA30F /* LaunchScreen.storyboard */; };
+		11C5438928888FE3008FA30F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5438828888FE3008FA30F /* QuestionViewController.swift */; };
 		A466647C28875EF0000187DA /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466647B28875EF0000187DA /* TodoTableViewController.swift */; };
 		A466648028876CBD000187DA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466647F28876CBD000187DA /* Todo.swift */; };
 		A4666482288773F0000187DA /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4666481288773F0000187DA /* AddTodoViewController.swift */; };
@@ -30,6 +31,7 @@
 		11C5432C28873974008FA30F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11C5432F28873974008FA30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11C5433128873974008FA30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C5438828888FE3008FA30F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		A466647B28875EF0000187DA /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
 		A466647F28876CBD000187DA /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		A4666481288773F0000187DA /* AddTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				A466647B28875EF0000187DA /* TodoTableViewController.swift */,
 				A466648528879475000187DA /* TaskLTableViewController.swift */,
 				11C5432628873971008FA30F /* Main.storyboard */,
+				11C5438828888FE3008FA30F /* QuestionViewController.swift */,
 				A4666481288773F0000187DA /* AddTodoViewController.swift */,
 				11C5432C28873974008FA30F /* Assets.xcassets */,
 				11C5432E28873974008FA30F /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 				11C5432B28873971008FA30F /* finalProject.xcdatamodeld in Sources */,
 				11C5432328873971008FA30F /* SceneDelegate.swift in Sources */,
 				A466648628879475000187DA /* TaskLTableViewController.swift in Sources */,
+				11C5438928888FE3008FA30F /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

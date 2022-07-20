@@ -26,6 +26,7 @@ class AddTodoViewController: UIViewController {
             toDo.important = importantSwitch.isOn
           }
           previousVC.toDos.append(toDo)
+          print(previousVC.toDos)
           previousVC.tableView.reloadData()
     }
     

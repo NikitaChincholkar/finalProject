@@ -1,13 +1,14 @@
 //
-//  TodoTableViewController.swift
+//  TaskLTableViewController.swift
 //  finalProject
 //
 //  Created by Prasi Aravind on 7/19/22.
 //
-/*
+
 import UIKit
 
-class TodoTableViewController: UITableViewController {
+class TaskLTableViewController: UITableViewController {
+
     var toDos : [ToDo] = []
     
     override func viewDidLoad() {
@@ -29,18 +30,16 @@ class TodoTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
+/*    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+        return 6
+    }*/
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return toDos.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
@@ -48,8 +47,6 @@ class TodoTableViewController: UITableViewController {
 
         return cell
     }
-    */
-
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -66,7 +63,7 @@ class TodoTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
     */
 
@@ -90,9 +87,8 @@ class TodoTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
       if let addVC = segue.destination as? AddTodoViewController {
-        //addVC.previousVC = self
+        addVC.previousVC = self
       }
     }
 
 }
-*/

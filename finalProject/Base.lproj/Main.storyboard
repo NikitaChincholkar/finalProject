@@ -433,6 +433,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="In a week or less">
                                     <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="x7n-RA-vEc" kind="show" id="lcp-cs-y9f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlN-Uh-A3i">
                                 <rect key="frame" x="127" y="400" width="161" height="39"/>
@@ -441,6 +444,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="More than a week">
                                     <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="tgH-TT-v3G" kind="show" id="gKo-yC-P9m"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="boM-zF-oGr"/>
@@ -552,7 +558,7 @@
             <objects>
                 <tableViewController title="Mental Health Todos" modalPresentationStyle="fullScreen" id="tgH-TT-v3G" customClass="TaskLTableViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="bwc-ph-QMh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -587,7 +593,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="7DA-lS-lDI" customClass="AddTodoViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="elc-VS-Bhd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muY-9i-HH6">
@@ -658,7 +664,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="I04-QM-zM7"/>
+        <segue reference="gKo-yC-P9m"/>
+        <segue reference="lcp-cs-y9f"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Brown One Line Fox Travel Logo" width="500" height="500"/>

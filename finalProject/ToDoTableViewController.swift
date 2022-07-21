@@ -8,42 +8,35 @@
 import UIKit
 
 class ToDoTableViewController: UITableViewController {
-
-    //var toDos : [ToDo] = []
-    var toDos : [ToDoCD] = []
     
+    var toDos : [ToDoCD] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //getToDos()
-        //toDos = createToDos()
-    }
-    override func viewWillAppear(_ animated: Bool) {
-      getToDos()
+
+        getToDos()
     }
     
-//    func createToDos() -> [ToDo] {
-//
-//      let walk = ToDo()
-//        walk.name = "Walk Sammy before he throws a tantrum"
-//        walk.important = true
-//
-//
-//      let dog = ToDo()
-//        dog.name = "Stare at Sammy"
-//
-//      return [walk, dog]
-//    }
+    /*
+    func createToDos() -> [ToDo] {
+        
+        let swift = ToDo()
+        swift.name = "Learn Swift"
+        swift.important = true
+        
+        let dog = ToDo()
+        dog.name = "Walk the Dog"
+        // important is set to false by default
+        
+        return [swift, dog]
+    }
+     */
 
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1//must change to 1, not in intructions 
-    }
+     
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return toDos.count//sets number 0f rows
+        return toDos.count
     }
 
     
@@ -62,27 +55,33 @@ class ToDoTableViewController: UITableViewController {
 
       return cell
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-      if let addVC = segue.destination as? AddToDoViewController {
-        addVC.previousVC = self
-      }
-
-      if let completeVC = segue.destination as? CompleteToDoViewController {
-          if let toDo = sender as? ToDoCD {
-          completeVC.selectedToDo = toDo
-          completeVC.previousVC = self
-        }
-      }
-    }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
-      // this gives us a single ToDo
-      let toDo = toDos[indexPath.row]
-
-      performSegue(withIdentifier: "moveToComplete", sender: toDo)
+        
+        //this gives us a single ToDo
+        let toDo = toDos [indexPath.row]
+        
+        performSegue(withIdentifier: "moveToComplete", sender: toDo)
     }
+    
 
+    
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let addVC = segue.destination as? AddToDoViewController {
+            addVC.previousVC = self
+        }
+        
+        if let completeVC = segue.destination as? CompleteToDoViewController {
+            if let toDo = sender as? ToDoCD {
+                completeVC.selectedToDo = toDo
+                completeVC.previousVC = self
+            }
+        }
+    }
+    
     func getToDos() {
       if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
 
@@ -92,4 +91,9 @@ class ToDoTableViewController: UITableViewController {
         }
       }
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+      getToDos()
+    }
+
 }

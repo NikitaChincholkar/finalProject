@@ -15,8 +15,8 @@ class CompleteToDoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         titleLabel.text = selectedToDo?.name
-        // Do any additional setup after loading the view.
     }
     
     @IBOutlet weak var titleLabel: UILabel!

@@ -9,12 +9,12 @@ import UIKit
 
 class ToDoTableViewController: UITableViewController {
     @IBOutlet weak var backButton: UIBarButtonItem!
-    
     var toDos : [ToDoCD] = []
 
     override func viewDidLoad() {
+       
         super.viewDidLoad()
-
+       
         getToDos()
     }
     

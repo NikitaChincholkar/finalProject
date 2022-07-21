@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="66.964285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--During View Controller-->
         <scene sceneID="fCe-Jj-Vw7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="x7n-RA-vEc" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="x7n-RA-vEc" customClass="DuringViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bmF-ix-Sqa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,10 +199,10 @@
             </objects>
             <point key="canvasLocation" x="1478.2608695652175" y="66.964285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Menopause View Controller-->
         <scene sceneID="nQI-Zo-0tw">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="A48-ey-Usg" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="A48-ey-Usg" customClass="MenopauseViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oOA-ld-qdY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -301,10 +301,10 @@
             </objects>
             <point key="canvasLocation" x="2205.7971014492755" y="66.964285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Pre Period View Controller-->
         <scene sceneID="U66-QD-Jfq">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="yYw-Zg-uFb" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="yYw-Zg-uFb" customClass="PrePeriodViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SWD-FH-l6b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -403,10 +403,10 @@
             </objects>
             <point key="canvasLocation" x="2930.434782608696" y="66.964285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Pregnancy View Controller-->
         <scene sceneID="msc-qD-UE4">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="kZh-C3-JWe" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="kZh-C3-JWe" customClass="PregnancyViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kmn-wJ-MkC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -571,10 +571,10 @@
             </objects>
             <point key="canvasLocation" x="708.69565217391312" y="66.964285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Affirmations View Controller-->
         <scene sceneID="hen-dG-HpI">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="q8V-aO-G41" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="q8V-aO-G41" customClass="AffirmationsViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="phh-ei-4nQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -855,7 +855,7 @@
         <segue reference="EaT-gB-Bc1"/>
         <segue reference="DXg-17-Frf"/>
         <segue reference="FaV-hr-oVf"/>
-        <segue reference="I04-QM-zM7"/>
+        <segue reference="3E3-aC-fFe"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Brown One Line Fox Travel Logo" width="500" height="500"/>

@@ -15,6 +15,11 @@
 		11C5432D28873974008FA30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C5432C28873974008FA30F /* Assets.xcassets */; };
 		11C5433028873974008FA30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C5432E28873974008FA30F /* LaunchScreen.storyboard */; };
 		11C5438928888FE3008FA30F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5438828888FE3008FA30F /* QuestionViewController.swift */; };
+		9D51BBD72889F7C900117C7C /* AffirmationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51BBD62889F7C900117C7C /* AffirmationsViewController.swift */; };
+		9D51BBD92889F88D00117C7C /* DuringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51BBD82889F88D00117C7C /* DuringViewController.swift */; };
+		9D51BBDB2889F8D900117C7C /* PrePeriodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51BBDA2889F8D900117C7C /* PrePeriodViewController.swift */; };
+		9D51BBDD2889F91100117C7C /* PregnancyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51BBDC2889F91100117C7C /* PregnancyViewController.swift */; };
+		9D51BBDF2889F93F00117C7C /* MenopauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51BBDE2889F93F00117C7C /* MenopauseViewController.swift */; };
 		A466651B2888C00C000187DA /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466651A2888C00C000187DA /* AddToDoViewController.swift */; };
 		A466651D2888C018000187DA /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466651C2888C018000187DA /* CompleteToDoViewController.swift */; };
 		A466651F2888C023000187DA /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466651E2888C023000187DA /* ToDo.swift */; };
@@ -32,6 +37,11 @@
 		11C5432F28873974008FA30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11C5433128873974008FA30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C5438828888FE3008FA30F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		9D51BBD62889F7C900117C7C /* AffirmationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsViewController.swift; sourceTree = "<group>"; };
+		9D51BBD82889F88D00117C7C /* DuringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuringViewController.swift; sourceTree = "<group>"; };
+		9D51BBDA2889F8D900117C7C /* PrePeriodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrePeriodViewController.swift; sourceTree = "<group>"; };
+		9D51BBDC2889F91100117C7C /* PregnancyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyViewController.swift; sourceTree = "<group>"; };
+		9D51BBDE2889F93F00117C7C /* MenopauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenopauseViewController.swift; sourceTree = "<group>"; };
 		A466651A2888C00C000187DA /* AddToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		A466651C2888C018000187DA /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		A466651E2888C023000187DA /* ToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
@@ -69,9 +79,14 @@
 			isa = PBXGroup;
 			children = (
 				11C5432028873971008FA30F /* AppDelegate.swift */,
+				9D51BBD82889F88D00117C7C /* DuringViewController.swift */,
 				11C5432228873971008FA30F /* SceneDelegate.swift */,
 				11C5432428873971008FA30F /* ViewController.swift */,
 				11C5432628873971008FA30F /* Main.storyboard */,
+				9D51BBDE2889F93F00117C7C /* MenopauseViewController.swift */,
+				9D51BBDC2889F91100117C7C /* PregnancyViewController.swift */,
+				9D51BBDA2889F8D900117C7C /* PrePeriodViewController.swift */,
+				9D51BBD62889F7C900117C7C /* AffirmationsViewController.swift */,
 				A466651C2888C018000187DA /* CompleteToDoViewController.swift */,
 				A466651A2888C00C000187DA /* AddToDoViewController.swift */,
 				11C5438828888FE3008FA30F /* QuestionViewController.swift */,
@@ -158,12 +173,17 @@
 			files = (
 				11C5432528873971008FA30F /* ViewController.swift in Sources */,
 				A46665212888C02B000187DA /* ToDoTableViewController.swift in Sources */,
+				9D51BBDF2889F93F00117C7C /* MenopauseViewController.swift in Sources */,
 				11C5432128873971008FA30F /* AppDelegate.swift in Sources */,
 				11C5432B28873971008FA30F /* finalProject.xcdatamodeld in Sources */,
 				A466651F2888C023000187DA /* ToDo.swift in Sources */,
 				A466651D2888C018000187DA /* CompleteToDoViewController.swift in Sources */,
+				9D51BBD92889F88D00117C7C /* DuringViewController.swift in Sources */,
+				9D51BBDD2889F91100117C7C /* PregnancyViewController.swift in Sources */,
 				11C5432328873971008FA30F /* SceneDelegate.swift in Sources */,
 				A466651B2888C00C000187DA /* AddToDoViewController.swift in Sources */,
+				9D51BBDB2889F8D900117C7C /* PrePeriodViewController.swift in Sources */,
+				9D51BBD72889F7C900117C7C /* AffirmationsViewController.swift in Sources */,
 				11C5438928888FE3008FA30F /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

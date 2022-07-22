@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="128" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Nav Bar" id="O3O-Nd-s06"/>
+                                    <navigationItem title="Welcome!" id="O3O-Nd-s06"/>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bix-ar-mtZ">
@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yY-ip-gX6">
-                                <rect key="frame" x="115" y="515" width="184" height="39"/>
+                                <rect key="frame" x="112" y="634" width="184" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99607843137254903" green="0.54509803921568623" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
@@ -50,7 +50,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please let us know if you are on your period!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJ2-6C-rvl">
-                                <rect key="frame" x="40" y="474" width="334" height="21"/>
+                                <rect key="frame" x="37" y="582" width="334" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -61,7 +61,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEq-gs-6X1">
-                                <rect key="frame" x="115" y="562" width="184" height="39"/>
+                                <rect key="frame" x="112" y="681" width="184" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Not On Your Period">
@@ -71,6 +71,14 @@
                                     <segue destination="5PK-bO-BXk" kind="show" id="7nL-1z-2ZL"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kazuha saying hello" translatesAutoresizingMaskIntoConstraints="NO" id="WTE-cL-yaw">
+                                <rect key="frame" x="18" y="339" width="379" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="xNh-eJ-cWP">
+                                <rect key="frame" x="272" y="386" width="46" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.92156862745098034" green="0.90196078431372551" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -147,7 +155,7 @@
                                                 </connections>
                                             </button>
                                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rVq-yi-4EX">
-                                                <rect key="frame" x="-8" y="101" width="414" height="44"/>
+                                                <rect key="frame" x="-8" y="95" width="414" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                             </navigationBar>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYD-9p-oN2">
@@ -162,6 +170,67 @@
                                                     <segue destination="ohQ-jn-GzL" kind="show" id="EYR-LD-U0d"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here is a quick breakdown of the menstrual cycle!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMU-Uw-DQd">
+                                                <rect key="frame" x="10" y="92" width="379" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8d-5r-ukP">
+                                                <rect key="frame" x="24" y="139" width="376" height="433"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Your cycle is controlled by hormones such as estrogen and progesterone. 
+1. The two ovaries hold eggs in each.
+2. The hormones make the eggs in your ovaries mature.
+3. When the eggs are mature, they are ready to be fertilized.
+4. Halfway through the cycle, the hormones tell one of the ovaries to release the egg in a process called “ovulation.” These symptoms include bloating, spotting, or slight pain in your lower belly.
+5. As it leaves the ovary, it travels through a fallopian tube towards the uterus.
+ If pregnancy does not happen, your body won’t need the lining in your uterus.
+The lining breaks down making the blood, nutrients, and tissues flow out of your body.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhI-jp-7NE">
+                                                <rect key="frame" x="8" y="563" width="374" height="252"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Having a period has its ups and downs. We want to make sure that you also know the benefits to it. A drop in your estrogen and progesterone enables your body to have a fueled gym session! Although it may not feel that way, high energy workouts are encouraged and beneficial. Because of this, you may even experience less cramps and flow! :)  </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDj-nb-maf">
+                                                <rect key="frame" x="5" y="783" width="401" height="267"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Knowing that working out is encouraged for your health, your period also gives you information about yourself! Your cycle gives a ton of insight on how your body is functioning during that month. These things include being underweight, overweight, or being under extreme stress.
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzg-8j-sAA">
+                                                <rect key="frame" x="41" y="1169" width="329" height="211"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">With that being said, it's a great way to bond with others. Sharing sanitary products with others gives a sense of bond and affinity that you’re not suffering alone! You are safe and supported throughout this monthly cycle!</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kazuha period" translatesAutoresizingMaskIntoConstraints="NO" id="tJj-i3-JCw">
+                                                <rect key="frame" x="56" y="976" width="278" height="198"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="2fs-wr-NN7">
+                                                <rect key="frame" x="344" y="186" width="62" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="cTj-NU-E7Q">
+                                                <rect key="frame" x="337" y="210" width="45" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92156862745098034" green="0.90196078431372551" blue="0.88627450980392153" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.92156862745098034" green="0.90196078431372551" blue="0.88627450980392153" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
@@ -229,6 +298,18 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h2K-Wp-kFH">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                         <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDi-jU-io9">
+                                                <rect key="frame" x="144" y="719" width="126" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="BACK">
+                                                    <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="x7n-RA-vEc" kind="show" id="3E3-aC-fFe"/>
+                                                </connections>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lu9-Ba-jhU">
                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -253,18 +334,48 @@
                                                     <segue destination="yYw-Zg-uFb" kind="show" id="TRJ-C4-ftZ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDi-jU-io9">
-                                                <rect key="frame" x="144" y="719" width="126" height="39"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The total menopausal transition lasts anywhere from 7-14 years. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLO-N7-tTX">
+                                                <rect key="frame" x="12" y="63" width="391" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="BACK">
-                                                    <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <segue destination="x7n-RA-vEc" kind="show" id="3E3-aC-fFe"/>
-                                                </connections>
-                                            </button>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="surprised hutao" translatesAutoresizingMaskIntoConstraints="NO" id="nLR-LX-M8D">
+                                                <rect key="frame" x="80" y="127" width="255" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghg-G7-SQC">
+                                                <rect key="frame" x="28" y="287" width="386" height="226"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Levels of hormones in the body start to change
+Intense heat
+-Sweating (also known as “hot flashes”)
+-Trouble sleeping
+-Approaching menopause
+-Urinary problems
+-Irregular periods
+-Vaginal Health (gets drier, intercourse uncomfortable)
+-Menopause occurs
+
+
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="klee shouting" translatesAutoresizingMaskIntoConstraints="NO" id="5Gb-Qs-aDf">
+                                                <rect key="frame" x="0.0" y="553" width="173" height="107"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Those with mental health conditions may experience these symptoms differently than those who do not." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWK-YP-eIh">
+                                                <rect key="frame" x="165" y="539" width="186" height="134"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92156862750000001" green="0.90196078430000004" blue="0.8862745098" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -328,8 +439,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9u1-9A-FrF">
                                 <rect key="frame" x="0.0" y="111" width="414" height="785"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tHh-9p-hjY">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSX-d3-ASN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzw-hd-LA4">
                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="39"/>
@@ -344,7 +455,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8U-mA-bQS">
-                                                <rect key="frame" x="288" y="0.0" width="126" height="39"/>
+                                                <rect key="frame" x="288" y="0.0" width="126" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -355,8 +466,42 @@
                                                     <segue destination="A48-ey-Usg" kind="show" id="ZVc-43-XI9"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G01-aT-7yH">
+                                                <rect key="frame" x="30" y="71" width="355" height="158"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Hormones rise and fall, which can affect how you feel mentally and physically. With that being said, mental health conditions can cause period problems, or even make them worse. Here is some information on what to look out for:</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffb-O6-ptM">
+                                                <rect key="frame" x="34" y="327" width="347" height="264"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">A. Premenstrual syndrome (PMS)
+PMS happens usually around 2 weeks before their periods
+PMS includes bloating, headaches, moodiness
+ B. Premenstrual dysphoric disorder (PMDD).  It is basically PMS but more severe. This includes severe depression and tension. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sad kazuha" translatesAutoresizingMaskIntoConstraints="NO" id="MUp-h0-5ft">
+                                                <rect key="frame" x="87" y="237" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What to expect in your cycle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyP-p0-AyZ">
+                                                <rect key="frame" x="94" y="599" width="226" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eating taiyaki" translatesAutoresizingMaskIntoConstraints="NO" id="sYl-YA-db8">
+                                                <rect key="frame" x="30" y="961" width="341" height="212"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QB-xW-KWZ">
-                                                <rect key="frame" x="144" y="719" width="126" height="39"/>
+                                                <rect key="frame" x="144" y="1419" width="126" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -367,30 +512,47 @@
                                                     <segue destination="A48-ey-Usg" kind="show" id="Ql2-JW-jKX"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5V-mf-FnT">
+                                                <rect key="frame" x="34" y="628" width="360" height="344"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Mental Health Effects:
+-Mood Swings
+The levels of the hormones, estrogen and progesterone, rise and level during periods.
+Those hormones affect your amygdala, the mood controller of the brain.
+A hyperactive amygdala can also lead to increased anxiety, bad mood, feeling sad, etc.
+Physical Health Effects: 
+-Intense cravings
+As estrogen levels decrease, many women use sweets to help release dopamine in their brain to feel better.
+Many women turn to sweet, comfort foods
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92156862750000001" green="0.90196078430000004" blue="0.8862745098" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="800" id="8Ph-9U-grx"/>
+                                            <constraint firstAttribute="height" constant="1500" id="rL4-Lz-e8d"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="tHh-9p-hjY" secondAttribute="trailing" id="5ol-0W-TQ2"/>
-                                    <constraint firstAttribute="bottom" secondItem="tHh-9p-hjY" secondAttribute="bottom" id="F0n-fF-TJW"/>
-                                    <constraint firstItem="tHh-9p-hjY" firstAttribute="top" secondItem="9u1-9A-FrF" secondAttribute="top" id="PJQ-pv-Fae"/>
-                                    <constraint firstItem="tHh-9p-hjY" firstAttribute="leading" secondItem="9u1-9A-FrF" secondAttribute="leading" id="n3p-y6-WRL"/>
+                                    <constraint firstItem="ZSX-d3-ASN" firstAttribute="top" secondItem="9u1-9A-FrF" secondAttribute="top" id="FLG-cj-sfs"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZSX-d3-ASN" secondAttribute="bottom" id="IrF-O0-6bX"/>
+                                    <constraint firstItem="ZSX-d3-ASN" firstAttribute="leading" secondItem="9u1-9A-FrF" secondAttribute="leading" id="e5s-et-Kdi"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZSX-d3-ASN" secondAttribute="trailing" id="enM-f0-m0A"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dT1-3S-mw6"/>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.90196078430000004" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tHh-9p-hjY" firstAttribute="width" secondItem="SWD-FH-l6b" secondAttribute="width" id="3SJ-rX-V4h"/>
-                            <constraint firstItem="tHh-9p-hjY" firstAttribute="height" secondItem="SWD-FH-l6b" secondAttribute="height" multiplier="0.892857" id="CUh-MG-ICd"/>
+                            <constraint firstItem="ZSX-d3-ASN" firstAttribute="width" secondItem="SWD-FH-l6b" secondAttribute="width" id="82V-qP-oWa"/>
                             <constraint firstAttribute="bottom" secondItem="9u1-9A-FrF" secondAttribute="bottom" id="NbQ-Sq-GQW"/>
                             <constraint firstItem="9u1-9A-FrF" firstAttribute="top" secondItem="yBK-UH-79s" secondAttribute="bottom" constant="37" id="RPQ-D8-gjr"/>
                             <constraint firstItem="yBK-UH-79s" firstAttribute="leading" secondItem="dT1-3S-mw6" secondAttribute="leading" constant="114" id="RXf-m3-v8r"/>
                             <constraint firstItem="yBK-UH-79s" firstAttribute="top" secondItem="dT1-3S-mw6" secondAttribute="top" constant="6" id="jJm-PI-0hI"/>
+                            <constraint firstItem="ZSX-d3-ASN" firstAttribute="height" secondItem="SWD-FH-l6b" secondAttribute="height" multiplier="1.67411" id="nI1-SG-9ED"/>
                             <constraint firstItem="9u1-9A-FrF" firstAttribute="leading" secondItem="dT1-3S-mw6" secondAttribute="leading" id="qqb-Ie-9Bc"/>
                             <constraint firstItem="9u1-9A-FrF" firstAttribute="trailing" secondItem="dT1-3S-mw6" secondAttribute="trailing" id="vqd-0p-hPZ"/>
                             <constraint firstItem="dT1-3S-mw6" firstAttribute="trailing" secondItem="yBK-UH-79s" secondAttribute="trailing" constant="20" id="wqx-0L-IoK"/>
@@ -469,6 +631,38 @@
                                                     <segue destination="x7n-RA-vEc" kind="show" id="uOh-aA-zjh"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEW-hS-F8o">
+                                                <rect key="frame" x="32" y="28" width="351" height="231"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">
+Adding on to the topic of hormones, changing them can lead to relapse. Relapse is when the mental health conditions that have been treated before, come back. With these conditions, it gives a higher risk of problems during pregnancy. Here are what some of the conditions include:
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yanfei wink" translatesAutoresizingMaskIntoConstraints="NO" id="wf1-YQ-SF1">
+                                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Getting pregnant on your period is very likely on the days leading up to ovulation day!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yW5-53-iiV">
+                                                <rect key="frame" x="41" y="537" width="332" height="66"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sN9-ks-MGu">
+                                                <rect key="frame" x="136" y="231" width="142" height="114"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">-Eating disorders
+-Depression (the length varies)
+-Bipolar disorder
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92156862750000001" green="0.90196078430000004" blue="0.8862745098" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -518,7 +712,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uv-2d-Acd">
-                                <rect key="frame" x="127" y="306" width="161" height="39"/>
+                                <rect key="frame" x="127" y="486" width="161" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
@@ -529,26 +723,6 @@
                                     <segue destination="x7n-RA-vEc" kind="show" id="lcp-cs-y9f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlN-Uh-A3i">
-                                <rect key="frame" x="127" y="400" width="161" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="More than a week">
-                                    <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeC-ox-Yb7">
-                                <rect key="frame" x="67" y="222" width="280" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="When's your next period?">
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="25"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRe-aY-yfx">
                                 <rect key="frame" x="144" y="823" width="126" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -561,6 +735,33 @@
                                     <segue destination="ohQ-jn-GzL" kind="show" id="j52-Gs-iez"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlN-Uh-A3i">
+                                <rect key="frame" x="127" y="545" width="161" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="More than a week">
+                                    <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yYw-Zg-uFb" kind="show" id="oEr-XT-5ZX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeC-ox-Yb7">
+                                <rect key="frame" x="67" y="417" width="280" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="When's your next period?">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="25"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="confused kazuha" translatesAutoresizingMaskIntoConstraints="NO" id="60j-Kw-93S">
+                                <rect key="frame" x="42" y="165" width="330" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="boM-zF-oGr"/>
                         <color key="backgroundColor" red="0.92156862745098034" green="0.90196078431372551" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -583,18 +784,6 @@
                                 <rect key="frame" x="-54" y="0.0" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKQ-FU-Z8u">
-                                <rect key="frame" x="88" y="136" width="238" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Affirmations!">
-                                        <attributes>
-                                            <font key="NSFont" size="30" name="Zapfino"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxo-cy-u7l">
                                 <rect key="frame" x="144" y="794" width="126" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -607,6 +796,18 @@
                                     <segue destination="ohQ-jn-GzL" kind="show" id="iJo-Qu-zwn"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKQ-FU-Z8u">
+                                <rect key="frame" x="112" y="136" width="191" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Affirmations">
+                                        <attributes>
+                                            <font key="NSFont" size="34" name="TimesNewRomanPS-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dwr-OI-rFk"/>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.90196078430000004" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -615,7 +816,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ob3-kX-3Rf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-861" y="761"/>
+            <point key="canvasLocation" x="-862.31884057971024" y="760.71428571428567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GBL-PL-lJ1">
@@ -626,11 +827,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bd-9b-bE4">
-                                <rect key="frame" x="61" y="295" width="293" height="39"/>
+                                <rect key="frame" x="61" y="485" width="293" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Todo">
+                                <buttonConfiguration key="configuration" style="filled" title="To-Do">
                                     <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -638,7 +839,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHX-rP-kVc">
-                                <rect key="frame" x="61" y="429" width="293" height="39"/>
+                                <rect key="frame" x="61" y="548" width="293" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
@@ -657,7 +858,7 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8U-xN-wFD">
-                                <rect key="frame" x="61" y="578" width="293" height="39"/>
+                                <rect key="frame" x="61" y="609" width="293" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
@@ -672,6 +873,10 @@
                                 <rect key="frame" x="-56" y="0.0" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kazuha writing" translatesAutoresizingMaskIntoConstraints="NO" id="irc-ZR-h54">
+                                <rect key="frame" x="61" y="263" width="293" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qkD-cp-pMY"/>
                         <color key="backgroundColor" red="0.91764706370000004" green="0.90196073060000004" blue="0.88627451660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -680,7 +885,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o4g-nB-sTZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19" y="761"/>
+            <point key="canvasLocation" x="18.840579710144929" y="760.71428571428567"/>
         </scene>
         <!--Add To Do View Controller-->
         <scene sceneID="0SR-VS-eBc">
@@ -811,12 +1016,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of To-Do will go here:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLa-2H-PuJ">
-                                <rect key="frame" x="86" y="374" width="243" height="24"/>
+                                <rect key="frame" x="86" y="410" width="243" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yoimiya reassure" translatesAutoresizingMaskIntoConstraints="NO" id="YbX-9d-IHd">
+                                <rect key="frame" x="20" y="185" width="350" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zft-tg-Zjy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -828,7 +1037,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TQe-6K-lBt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1786" y="1417"/>
+            <point key="canvasLocation" x="1785.5072463768117" y="1416.9642857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WkF-hY-wmP">
@@ -855,10 +1064,21 @@
         <segue reference="EaT-gB-Bc1"/>
         <segue reference="DXg-17-Frf"/>
         <segue reference="FaV-hr-oVf"/>
-        <segue reference="3E3-aC-fFe"/>
+        <segue reference="I04-QM-zM7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Brown One Line Fox Travel Logo" width="500" height="500"/>
+        <image name="confused kazuha" width="456" height="480"/>
+        <image name="eating taiyaki" width="400" height="400"/>
+        <image name="heart" width="3465" height="3465"/>
+        <image name="kazuha period" width="400" height="400"/>
+        <image name="kazuha saying hello" width="424" height="480"/>
+        <image name="kazuha writing" width="310" height="334"/>
+        <image name="klee shouting" width="144" height="144"/>
+        <image name="sad kazuha" width="424" height="297"/>
+        <image name="surprised hutao" width="300" height="300"/>
+        <image name="yanfei wink" width="512" height="512"/>
+        <image name="yoimiya reassure" width="216" height="233"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -942,6 +942,13 @@ Adding on to the topic of hormones, changing them can lead to relapse. Relapse i
                                 <rect key="frame" x="61" y="263" width="293" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHj-PO-oJu">
+                                <rect key="frame" x="263" y="54" width="53" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qkD-cp-pMY"/>
                         <color key="backgroundColor" red="0.91764706370000004" green="0.90196073060000004" blue="0.88627451660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1126,9 +1133,9 @@ Adding on to the topic of hormones, changing them can lead to relapse. Relapse i
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="EYR-LD-U0d"/>
-        <segue reference="EaT-gB-Bc1"/>
-        <segue reference="DXg-17-Frf"/>
-        <segue reference="FaV-hr-oVf"/>
+        <segue reference="7RY-lV-B6I"/>
+        <segue reference="1LZ-v7-4oU"/>
+        <segue reference="0z3-48-QeS"/>
         <segue reference="uOh-aA-zjh"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1139,8 +1146,8 @@ Adding on to the topic of hormones, changing them can lead to relapse. Relapse i
         <image name="Sticker 5" width="300" height="510"/>
         <image name="confused kazuha" width="456" height="480"/>
         <image name="eating taiyaki" width="400" height="400"/>
-        <image name="heart" width="3465" height="3465"/>
         <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart" width="3465" height="3465"/>
         <image name="heart-1" width="512" height="512"/>
         <image name="kazuha period" width="400" height="400"/>
         <image name="kazuha saying hello" width="424" height="480"/>

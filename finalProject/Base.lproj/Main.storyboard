@@ -92,7 +92,7 @@
         <scene sceneID="fCe-Jj-Vw7">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="x7n-RA-vEc" customClass="DuringViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="bmF-ix-Sqa">
+                    <view key="view" contentMode="scaleToFill" id="bmF-ix-Sqa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -112,11 +112,11 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hFE-iT-ZuH">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hFE-iT-ZuH">
                                 <rect key="frame" x="0.0" y="105" width="414" height="791"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0mK-Hi-2XD">
-                                        <rect key="frame" x="0.0" y="-709" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mK-Hi-2XD">
+                                        <rect key="frame" x="0.0" y="-12" width="414" height="1500"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxw-kz-mRB">
                                                 <rect key="frame" x="8" y="11" width="136" height="37"/>
@@ -280,7 +280,7 @@ The lining breaks down making the blood, nutrients, and tissues flow out of your
         <scene sceneID="nQI-Zo-0tw">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="A48-ey-Usg" customClass="MenopauseViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="oOA-ld-qdY">
+                    <view key="view" contentMode="scaleToFill" id="oOA-ld-qdY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -300,10 +300,10 @@ The lining breaks down making the blood, nutrients, and tissues flow out of your
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r0k-aP-JKF">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0k-aP-JKF">
                                 <rect key="frame" x="0.0" y="110" width="414" height="786"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h2K-Wp-kFH">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h2K-Wp-kFH">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDi-jU-io9">
@@ -424,7 +424,7 @@ Intense heat
         <scene sceneID="U66-QD-Jfq">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="yYw-Zg-uFb" customClass="PrePeriodViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="SWD-FH-l6b">
+                    <view key="view" contentMode="scaleToFill" id="SWD-FH-l6b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -444,11 +444,11 @@ Intense heat
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9u1-9A-FrF">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9u1-9A-FrF">
                                 <rect key="frame" x="0.0" y="111" width="414" height="785"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZSX-d3-ASN">
-                                        <rect key="frame" x="0.0" y="-715" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSX-d3-ASN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzw-hd-LA4">
                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="39"/>
@@ -942,13 +942,6 @@ Adding on to the topic of hormones, changing them can lead to relapse. Relapse i
                                 <rect key="frame" x="61" y="263" width="293" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHj-PO-oJu">
-                                <rect key="frame" x="263" y="54" width="53" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qkD-cp-pMY"/>
                         <color key="backgroundColor" red="0.91764706370000004" green="0.90196073060000004" blue="0.88627451660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1136,7 +1129,7 @@ Adding on to the topic of hormones, changing them can lead to relapse. Relapse i
         <segue reference="7RY-lV-B6I"/>
         <segue reference="1LZ-v7-4oU"/>
         <segue reference="0z3-48-QeS"/>
-        <segue reference="uOh-aA-zjh"/>
+        <segue reference="I04-QM-zM7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Brown One Line Fox Travel Logo" width="500" height="500"/>
@@ -1146,8 +1139,8 @@ Adding on to the topic of hormones, changing them can lead to relapse. Relapse i
         <image name="Sticker 5" width="300" height="510"/>
         <image name="confused kazuha" width="456" height="480"/>
         <image name="eating taiyaki" width="400" height="400"/>
-        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="heart" width="3465" height="3465"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="heart-1" width="512" height="512"/>
         <image name="kazuha period" width="400" height="400"/>
         <image name="kazuha saying hello" width="424" height="480"/>

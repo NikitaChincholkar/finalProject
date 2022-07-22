@@ -92,7 +92,7 @@
         <scene sceneID="fCe-Jj-Vw7">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="x7n-RA-vEc" customClass="DuringViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bmF-ix-Sqa">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="bmF-ix-Sqa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -112,11 +112,11 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hFE-iT-ZuH">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hFE-iT-ZuH">
                                 <rect key="frame" x="0.0" y="105" width="414" height="791"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mK-Hi-2XD">
-                                        <rect key="frame" x="0.0" y="-12" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0mK-Hi-2XD">
+                                        <rect key="frame" x="0.0" y="-709" width="414" height="1500"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxw-kz-mRB">
                                                 <rect key="frame" x="8" y="11" width="136" height="37"/>
@@ -180,7 +180,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8d-5r-ukP">
                                                 <rect key="frame" x="24" y="139" width="376" height="433"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Your cycle is controlled by hormones such as estrogen and progesterone. 
+                                                <string key="text">Your cycle is controlled by hormones such as estrogen and progesterone. 
 1. The two ovaries hold eggs in each.
 2. The hormones make the eggs in your ovaries mature.
 3. When the eggs are mature, they are ready to be fertilized.
@@ -188,21 +188,13 @@
 5. As it leaves the ovary, it travels through a fallopian tube towards the uterus.
  If pregnancy does not happen, your body won’t need the lining in your uterus.
 The lining breaks down making the blood, nutrients, and tissues flow out of your body.
-</mutableString>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhI-jp-7NE">
-                                                <rect key="frame" x="8" y="563" width="374" height="252"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Having a period has its ups and downs. We want to make sure that you also know the benefits to it. A drop in your estrogen and progesterone enables your body to have a fueled gym session! Although it may not feel that way, high energy workouts are encouraged and beneficial. Because of this, you may even experience less cramps and flow! :)  </string>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDj-nb-maf">
-                                                <rect key="frame" x="5" y="783" width="401" height="267"/>
+                                                <rect key="frame" x="5" y="908" width="401" height="142"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Knowing that working out is encouraged for your health, your period also gives you information about yourself! Your cycle gives a ton of insight on how your body is functioning during that month. These things include being underweight, overweight, or being under extreme stress.
 
@@ -212,23 +204,39 @@ The lining breaks down making the blood, nutrients, and tissues flow out of your
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzg-8j-sAA">
-                                                <rect key="frame" x="41" y="1169" width="329" height="211"/>
+                                                <rect key="frame" x="43" y="1280" width="329" height="122"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">With that being said, it's a great way to bond with others. Sharing sanitary products with others gives a sense of bond and affinity that you’re not suffering alone! You are safe and supported throughout this monthly cycle!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kazuha period" translatesAutoresizingMaskIntoConstraints="NO" id="tJj-i3-JCw">
-                                                <rect key="frame" x="56" y="976" width="278" height="198"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="2fs-wr-NN7">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart-1" translatesAutoresizingMaskIntoConstraints="NO" id="2fs-wr-NN7">
                                                 <rect key="frame" x="344" y="186" width="62" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="cTj-NU-E7Q">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart-1" translatesAutoresizingMaskIntoConstraints="NO" id="xSo-9a-EXb">
+                                                <rect key="frame" x="181" y="548" width="62" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart-1" translatesAutoresizingMaskIntoConstraints="NO" id="cTj-NU-E7Q">
                                                 <rect key="frame" x="337" y="210" width="45" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhI-jp-7NE">
+                                                <rect key="frame" x="20" y="580" width="374" height="186"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Having a period has its ups and downs. We want to make sure that you also know the benefits to it. A drop in your estrogen and progesterone enables your body to have a fueled gym session! Although it may not feel that way, high energy workouts are encouraged and beneficial. Because of this, you may even experience less cramps and flow! :)  </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="period" translatesAutoresizingMaskIntoConstraints="NO" id="344-Mw-bS3">
+                                                <rect key="frame" x="92" y="774" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kazuha period" translatesAutoresizingMaskIntoConstraints="NO" id="tJj-i3-JCw">
+                                                <rect key="frame" x="73" y="1058" width="278" height="198"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -272,7 +280,7 @@ The lining breaks down making the blood, nutrients, and tissues flow out of your
         <scene sceneID="nQI-Zo-0tw">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="A48-ey-Usg" customClass="MenopauseViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oOA-ld-qdY">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="oOA-ld-qdY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -292,10 +300,10 @@ The lining breaks down making the blood, nutrients, and tissues flow out of your
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0k-aP-JKF">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r0k-aP-JKF">
                                 <rect key="frame" x="0.0" y="110" width="414" height="786"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h2K-Wp-kFH">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h2K-Wp-kFH">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDi-jU-io9">
@@ -416,7 +424,7 @@ Intense heat
         <scene sceneID="U66-QD-Jfq">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="yYw-Zg-uFb" customClass="PrePeriodViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SWD-FH-l6b">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="SWD-FH-l6b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -436,11 +444,11 @@ Intense heat
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9u1-9A-FrF">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9u1-9A-FrF">
                                 <rect key="frame" x="0.0" y="111" width="414" height="785"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSX-d3-ASN">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZSX-d3-ASN">
+                                        <rect key="frame" x="0.0" y="-715" width="414" height="1500"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzw-hd-LA4">
                                                 <rect key="frame" x="0.0" y="0.0" width="126" height="39"/>
@@ -462,9 +470,6 @@ Intense heat
                                                 <buttonConfiguration key="configuration" style="filled" title="Menopause">
                                                     <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <segue destination="A48-ey-Usg" kind="show" id="ZVc-43-XI9"/>
-                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G01-aT-7yH">
                                                 <rect key="frame" x="30" y="71" width="355" height="158"/>
@@ -489,15 +494,8 @@ PMS includes bloating, headaches, moodiness
                                                 <rect key="frame" x="87" y="237" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What to expect in your cycle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyP-p0-AyZ">
-                                                <rect key="frame" x="94" y="599" width="226" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eating taiyaki" translatesAutoresizingMaskIntoConstraints="NO" id="sYl-YA-db8">
-                                                <rect key="frame" x="30" y="961" width="341" height="212"/>
+                                                <rect key="frame" x="37" y="1180" width="341" height="212"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QB-xW-KWZ">
@@ -509,26 +507,51 @@ PMS includes bloating, headaches, moodiness
                                                     <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="A48-ey-Usg" kind="show" id="Ql2-JW-jKX"/>
+                                                    <segue destination="x7n-RA-vEc" kind="show" id="SZl-In-qNz"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5V-mf-FnT">
-                                                <rect key="frame" x="34" y="628" width="360" height="344"/>
+                                                <rect key="frame" x="25" y="665" width="360" height="234"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Mental Health Effects:
 -Mood Swings
 The levels of the hormones, estrogen and progesterone, rise and level during periods.
 Those hormones affect your amygdala, the mood controller of the brain.
-A hyperactive amygdala can also lead to increased anxiety, bad mood, feeling sad, etc.
-Physical Health Effects: 
--Intense cravings
-As estrogen levels decrease, many women use sweets to help release dopamine in their brain to feel better.
-Many women turn to sweet, comfort foods
-</string>
+A hyperactive amygdala can also lead to increased anxiety, bad mood, feeling sad, etc.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ice cream" translatesAutoresizingMaskIntoConstraints="NO" id="rl7-he-uKU">
+                                                <rect key="frame" x="300" y="599" width="106" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What to expect in your cycle:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyP-p0-AyZ">
+                                                <rect key="frame" x="92" y="636" width="226" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g17-do-If4">
+                                                <rect key="frame" x="25" y="1051" width="360" height="143"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Physical Health Effects: 
+- Intense cravings
+As estrogen levels decrease, many women use sweets to help release dopamine in their brain to feel better.
+Many women turn to sweet, comfort foods</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sticker 4" translatesAutoresizingMaskIntoConstraints="NO" id="A9E-X4-ZzN">
+                                                <rect key="frame" x="0.0" y="859" width="240" height="184"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sticker 5" translatesAutoresizingMaskIntoConstraints="NO" id="9tq-qP-tYI">
+                                                <rect key="frame" x="200" y="872" width="240" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92156862750000001" green="0.90196078430000004" blue="0.8862745098" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -569,7 +592,7 @@ Many women turn to sweet, comfort foods
         <scene sceneID="msc-qD-UE4">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="kZh-C3-JWe" customClass="PregnancyViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kmn-wJ-MkC">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="kmn-wJ-MkC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -589,10 +612,10 @@ Many women turn to sweet, comfort foods
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fi-dE-9ZM">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fi-dE-9ZM">
                                 <rect key="frame" x="0.0" y="111" width="414" height="785"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ywm-bX-aQ9">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ywm-bX-aQ9">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDY-5M-3i5">
@@ -808,11 +831,53 @@ Adding on to the topic of hormones, changing them can lead to relapse. Relapse i
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJs-Ux-nw7">
+                                <rect key="frame" x="59" y="219" width="297" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Click button for your affirmations!">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFd-z5-6du">
+                                <rect key="frame" x="144" y="699" width="126" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="NEXT">
+                                    <color key="baseBackgroundColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextAff:" destination="q8V-aO-G41" eventType="touchUpInside" id="lOL-fa-mtc"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sticker 3" translatesAutoresizingMaskIntoConstraints="NO" id="JAN-bf-5Bd">
+                                <rect key="frame" x="87" y="536" width="240" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Mwq-NZ-S6r">
+                                <rect key="frame" x="71" y="133.5" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.99607843137254903" green="0.54509803921568623" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="z4i-oN-ggd">
+                                <rect key="frame" x="298" y="133.5" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.99607843139999996" green="0.5450980392" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dwr-OI-rFk"/>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.90196078430000004" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="o1x-XV-apY"/>
+                    <connections>
+                        <outlet property="labelPlace" destination="oJs-Ux-nw7" id="IAg-OM-dSP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ob3-kX-3Rf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1064,17 +1129,24 @@ Adding on to the topic of hormones, changing them can lead to relapse. Relapse i
         <segue reference="EaT-gB-Bc1"/>
         <segue reference="DXg-17-Frf"/>
         <segue reference="FaV-hr-oVf"/>
-        <segue reference="I04-QM-zM7"/>
+        <segue reference="uOh-aA-zjh"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Brown One Line Fox Travel Logo" width="500" height="500"/>
+        <image name="Ice cream" width="375" height="360"/>
+        <image name="Sticker 3" width="500" height="500"/>
+        <image name="Sticker 4" width="450" height="450"/>
+        <image name="Sticker 5" width="300" height="510"/>
         <image name="confused kazuha" width="456" height="480"/>
         <image name="eating taiyaki" width="400" height="400"/>
         <image name="heart" width="3465" height="3465"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart-1" width="512" height="512"/>
         <image name="kazuha period" width="400" height="400"/>
         <image name="kazuha saying hello" width="424" height="480"/>
         <image name="kazuha writing" width="310" height="334"/>
         <image name="klee shouting" width="144" height="144"/>
+        <image name="period" width="409" height="408"/>
         <image name="sad kazuha" width="424" height="297"/>
         <image name="surprised hutao" width="300" height="300"/>
         <image name="yanfei wink" width="512" height="512"/>
